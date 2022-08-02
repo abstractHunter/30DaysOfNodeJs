@@ -7,8 +7,8 @@ function pdfServerCallback(request, response) {
         if (error) {
             res.json({ 'status': 'error', msg: err });
         } else {
-            res.write(data);
-            res.end();
+            response.write(data);
+            response.end();
         }
     });
 }
@@ -23,7 +23,7 @@ function pdfServerCallback(request, response) {
             var rstream = fs.createReadStream('audio.mp3');
             rstream.pipe(res);
         } else {
-            res.end("Its a 404");
+            response.end("Its a 404");
         }
     });
 }
@@ -31,14 +31,14 @@ function pdfServerCallback(request, response) {
 // mp4_server
 function pdfServerCallback(request, response) {
     // MIME type is video/mp3
-    res.writeHead(200, { 'Content-Type': 'video/mp4' });
+    response.writeHead(200, { 'Content-Type': 'video/mp4' });
     fs.exists('video.mp4', function(exists) {
         if (exists) {
             var rstream = fs.createReadStream('video.mp4');
             rstream.pipe(res);
         } else {
-            res.send("Its a 404");
-            res.end();
+            response.send("Its a 404");
+            response.end();
         }
     });
 }
