@@ -1,0 +1,2 @@
+Node.js gives the functionality of File I/O 
+by providing wrappers around the standard POSIX functions
