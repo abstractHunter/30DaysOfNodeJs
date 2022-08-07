@@ -8,3 +8,4 @@ estimated end date : 2022-08-30
 03 => day 03 (regular expressions)
 04 => day 04 (console module)
 05 => day 05 (all about errors)
+07 => day 06 (array methods)
