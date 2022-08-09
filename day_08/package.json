@@ -1,0 +1,11 @@
+{
+    "name": "say_hello",
+    "version": "1.0.0",
+    "description": "A package to greet everybody :)",
+    "main": "sayHello.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "milkiyd",
+    "license": "ISC"
+}

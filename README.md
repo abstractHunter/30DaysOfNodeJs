@@ -10,3 +10,4 @@ estimated end date : 2022-08-30
 05 => day 05 (all about errors)  
 07 => day 06 (array methods)  
       day 07 (all about npm)  
+      day 08 (publishing npm packages)  
