@@ -11,4 +11,5 @@ estimated end date : 2022-08-30
 07 => day 06 (array methods)  
 &emsp;&emsp;&emsp;day 07 (all about npm)  
 08 => day 08 (publishing npm packages)  
-09 => day 09 (hashing and hmac)
+09 => day 09 (hashing and hmac)  
+&emsp;&emsp;&emsp;day 10 (encryption and decryption)
