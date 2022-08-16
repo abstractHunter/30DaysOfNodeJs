@@ -18,4 +18,5 @@ estimated end date : 2022-08-30
 13 => day 13 (signup and login forms with express.js, mongodb)  
 14 => day 14 (introduction to socket.io)  
 15 => day 15 (all about streams)  
-&emsp;&emsp;&emsp;day 16 (compression and decompression with zlib)
+&emsp;&emsp;&emsp;day 16 (compression and decompression with zlib)  
+16 => day 17 (mysql and node.js)  
