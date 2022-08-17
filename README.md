@@ -20,5 +20,6 @@ estimated end date : 2022-08-30
 15 => day 15 (all about streams)  
 &emsp;&emsp;&emsp;day 16 (compression and decompression with zlib)  
 16 => day 17 (mysql and node.js)  
-&emsp;&emsp;&emsp;day 18 (concept of callback)
-17 => day 19 (query strings)
+&emsp;&emsp;&emsp;day 18 (concept of callback)  
+17 => day 19 (query strings)  
+&emsp;&emsp;&emsp;day 20 (timers)  
