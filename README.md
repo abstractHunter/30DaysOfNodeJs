@@ -24,3 +24,4 @@ estimated end date : 2022-08-30
 17 => day 19 (query strings)  
 &emsp;&emsp;&emsp;day 20 (timers)  
 &emsp;&emsp;&emsp;day 21 (buffers)  
+&emsp;&emsp;&emsp;day 22 (string decoder)  
