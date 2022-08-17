@@ -23,3 +23,4 @@ estimated end date : 2022-08-30
 &emsp;&emsp;&emsp;day 18 (concept of callback)  
 17 => day 19 (query strings)  
 &emsp;&emsp;&emsp;day 20 (timers)  
+&emsp;&emsp;&emsp;day 21 (buffers)  
