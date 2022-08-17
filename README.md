@@ -21,3 +21,4 @@ estimated end date : 2022-08-30
 &emsp;&emsp;&emsp;day 16 (compression and decompression with zlib)  
 16 => day 17 (mysql and node.js)  
 &emsp;&emsp;&emsp;day 18 (concept of callback)
+17 => day 19 (query strings)
