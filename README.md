@@ -25,4 +25,5 @@ estimated end date : 2022-08-30
 &emsp;&emsp;&emsp;day 20 (timers)  
 &emsp;&emsp;&emsp;day 21 (buffers)  
 &emsp;&emsp;&emsp;day 22 (string decoder)  
-18 => day 23 (debugging)
+18 => day 23 (debugging)  
+&emsp;&emsp;&emsp;day 24 (child processes)  
