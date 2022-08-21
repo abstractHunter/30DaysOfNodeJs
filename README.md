@@ -30,3 +30,6 @@ estimated end date : 2022-08-30
 19 => day 25 (cluster module)  
 &emsp;&emsp;&emsp;day 26 (os module)  
 20 => day 27 (assert module)  
+21 => day 28 (getting tweets with node.js)  
+&emsp;&emsp;&emsp;day 29 (uploading file to dropbox)  
+&emsp;&emsp;&emsp;day 30 (github api oauth)  
