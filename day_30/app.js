@@ -1,5 +1,5 @@
 const express = require('express');
-const request = require('request');
+const axios = require('axios');
 
 const app = express();
 
@@ -28,53 +28,20 @@ app.get('/github/callback', function(req, res) {
     // extract authorize code 
     var code = req.query.code
 
-    // configure request params
-    options = {
-        method: 'POST',
-        uri: config.token_url,
-        formData: {
-            client_id: config.client_id,
-            client_secret: config.client_secret,
-            code: code
-        },
+    // make a post request to github to get access token
+    axios({
+        method: 'post',
+        url: config.token_url,
         headers: {
-            accept: 'application/json'
-        }
-    };
-
-    // make a request for auth_token using above options
-    request(options, function(e, r, b) {
-
-        // process the body
-        if (b) {
-            jb = JSON.parse(b)
-
-            // configure request to fetch user information
-            options_user = {
-                method: 'GET',
-                url: config.user_url + '?access_token=' + jb.access_token,
-                headers: {
-                    accept: 'application/json',
-                    'User-Agent': 'custom'
-                }
-            }
-            request(options_user, function(ee, rr, bb) {
-                // process the body
-                if (bb) {
-                    var bo = JSON.parse(bb)
-                    var resp = {
-                        name: bo.name,
-                        url: bo.url,
-                        id: bo.id,
-                        bio: bo.bio
-                    }
-                    return res.json(resp)
-                } else {
-                    console.log(er)
-                    return res.json(er)
-                }
-            });
-        }
+            'Accept': 'application/json'
+        },
+    }).then((response) => {
+        const accessToken = response.data.access_token;
+        console.log(response.data);
+    }).catch((error) => {
+        console.log(error);
+    }).finally(() => {
+        console.log("finally");
     });
 });
 
