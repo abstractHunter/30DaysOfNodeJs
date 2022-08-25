@@ -33,5 +33,6 @@ estimated end date : 2022-08-30
 21 => day 28 (getting tweets with node.js)  
 &emsp;&emsp;&emsp;day 29 (uploading file to dropbox)  
 &emsp;&emsp;&emsp;day 30 (github api oauth)  
-22 => more about express.js
-23 => youtube api
+22 => more about express.js  
+23 => youtube api  
+24 => view engines  
